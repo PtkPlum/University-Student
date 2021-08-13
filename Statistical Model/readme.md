@@ -4,3 +4,4 @@ Stat Model composed of
   2. Regression Analysis
   3. Classification Analysis
   4. Association Analysis
+  5. Time Series Analysis
