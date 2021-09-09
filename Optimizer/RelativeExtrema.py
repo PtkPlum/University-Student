@@ -31,9 +31,16 @@ def g():
     A = sp.exp(2.3*x + 1.4*y - 2.3*z)
     return X, A
 
+def h():
+    x, y = X = sp.symbols('x y', real=True)
+    return X, (4 * x * y**2) + (3 * x**2 * y**4)
+
 if __name__ == '__main__':
     X, F = f()
     OptimalSol, OptimalVal = RelativeExtrema(F, X, show=True)
     
     X, F = g() 
+    OptimalSol, OptimalVal = RelativeExtrema(F, X, show=True)
+    
+    X, F = h() 
     OptimalSol, OptimalVal = RelativeExtrema(F, X, show=True)
