@@ -1,5 +1,5 @@
 Optimizer such as 
-  1. Numerical Differential
+  1. Relative Extrema with Differential
   2. Golden Section Search
   3. Newton's Method
   4. Steepest Decent Method
