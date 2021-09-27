@@ -1,2 +1,3 @@
 # UniversityStudent
-Explain a detail of work or project since I was studied at Mahidol University.
+Explain a detail of work since I was studied at Mahidol University.
+(I have copied the code from internet to apply it in the future)
